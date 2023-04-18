@@ -147,9 +147,9 @@ body{
 }
 
 .article__descricao{    
-    position: absolute;    
-    margin: 50px 20px;
-    padding: 0px;
+    position: relative;    
+    margin: 50px 5px 10px 5px;
+    padding: 10px;
     font-size: 15px;
     color: #c1c1c1;
     line-height: 1.2em;
@@ -167,15 +167,13 @@ body{
 
 
 
-
-
 .overlay{
     position: absolute;
     display: flex;
     left: 0;
     top: 0;
     height: 40px;
-    padding: 15px 20px;
+    padding: 15px 30px;
     width: 100%;
     background-color: var(--darkerPurple);
     border-radius: 50px 1px 60px 0px;   
