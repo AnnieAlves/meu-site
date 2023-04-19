@@ -18,8 +18,8 @@
 }
 
 body{
-    background-color: #0e0e0e;
-    height: 100vh;
+    background: linear-gradient(#181818, rgb(10, 10, 10));
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -41,7 +41,7 @@ body{
     justify-content: flex-end;
 }
 
-.quote{    
+em{    
     font-style: italic;
     font-weight: lighter;    
 }
